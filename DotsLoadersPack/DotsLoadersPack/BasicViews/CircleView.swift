@@ -9,14 +9,14 @@
 import UIKit
 
 @IBDesignable
-class CircleView : UIView {
+public class CircleView : UIView {
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         drawCircle()
     }
     
-    override func layoutSubviews() {
+    override public func layoutSubviews() {
         super.layoutSubviews()
         drawCircle()
     }
@@ -75,14 +75,14 @@ class CircleView : UIView {
     }
     
     @IBInspectable
-    var circleRadius : CGFloat = 15.0{
+    public var circleRadius : CGFloat = 15.0{
         didSet {
             drawCircle()
         }
     }
     
     @IBInspectable
-    var circleColor : UIColor = UIColor.blue
+    public var circleColor : UIColor = UIColor.blue
     
 }
 

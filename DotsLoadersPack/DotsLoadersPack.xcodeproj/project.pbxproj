@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		C003770C1FC83E520075C28E /* DotsLoadersPack.h in Headers */ = {isa = PBXBuildFile; fileRef = C003770A1FC83E520075C28E /* DotsLoadersPack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0535FD01FFD033D000AD6AE /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0535FCF1FFD033D000AD6AE /* CircleView.swift */; };
+		C0535FD31FFD04D9000AD6AE /* RippleLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0535FD21FFD04D9000AD6AE /* RippleLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C00377071FC83E520075C28E /* DotsLoadersPack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DotsLoadersPack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C003770A1FC83E520075C28E /* DotsLoadersPack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DotsLoadersPack.h; sourceTree = "<group>"; };
 		C003770B1FC83E520075C28E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0535FCF1FFD033D000AD6AE /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		C0535FD21FFD04D9000AD6AE /* RippleLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RippleLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +50,28 @@
 		C00377091FC83E520075C28E /* DotsLoadersPack */ = {
 			isa = PBXGroup;
 			children = (
+				C0535FD11FFD0362000AD6AE /* Loaders */,
+				C0535FCE1FFD0320000AD6AE /* BasicViews */,
 				C003770A1FC83E520075C28E /* DotsLoadersPack.h */,
 				C003770B1FC83E520075C28E /* Info.plist */,
 			);
 			path = DotsLoadersPack;
+			sourceTree = "<group>";
+		};
+		C0535FCE1FFD0320000AD6AE /* BasicViews */ = {
+			isa = PBXGroup;
+			children = (
+				C0535FCF1FFD033D000AD6AE /* CircleView.swift */,
+			);
+			path = BasicViews;
+			sourceTree = "<group>";
+		};
+		C0535FD11FFD0362000AD6AE /* Loaders */ = {
+			isa = PBXGroup;
+			children = (
+				C0535FD21FFD04D9000AD6AE /* RippleLoader.swift */,
+			);
+			path = Loaders;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +154,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0535FD31FFD04D9000AD6AE /* RippleLoader.swift in Sources */,
+				C0535FD01FFD033D000AD6AE /* CircleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,7 +211,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -241,7 +265,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";

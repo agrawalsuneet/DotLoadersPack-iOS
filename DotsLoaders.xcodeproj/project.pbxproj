@@ -15,7 +15,6 @@
 		C00376F61FC83D670075C28E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C00376F41FC83D670075C28E /* LaunchScreen.storyboard */; };
 		C0B811E81FE9CB8A00052D0D /* DotsLoadersPack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C00377171FC83E530075C28E /* DotsLoadersPack.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		C0B811E91FE9CB8A00052D0D /* DotsLoadersPack.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C00377171FC83E530075C28E /* DotsLoadersPack.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		C0B811EE1FE9CC2200052D0D /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B811ED1FE9CC2200052D0D /* CircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,7 +58,6 @@
 		C00376F51FC83D670075C28E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C00376F71FC83D670075C28E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C00377121FC83E520075C28E /* DotsLoadersPack.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DotsLoadersPack.xcodeproj; path = DotsLoadersPack/DotsLoadersPack.xcodeproj; sourceTree = "<group>"; };
-		C0B811ED1FE9CC2200052D0D /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CircleView.swift; path = BasicViews/CircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +100,6 @@
 				C00376F41FC83D670075C28E /* LaunchScreen.storyboard */,
 				C00376F71FC83D670075C28E /* Info.plist */,
 				C00376EF1FC83D670075C28E /* DotsLoaders.xcdatamodeld */,
-				C0B811ED1FE9CC2200052D0D /* CircleView.swift */,
 			);
 			path = DotsLoaders;
 			sourceTree = "<group>";
@@ -212,7 +209,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0B811EE1FE9CC2200052D0D /* CircleView.swift in Sources */,
 				C00376EB1FC83D670075C28E /* ViewController.swift in Sources */,
 				C00376F11FC83D670075C28E /* DotsLoaders.xcdatamodeld in Sources */,
 				C00376E91FC83D670075C28E /* AppDelegate.swift in Sources */,

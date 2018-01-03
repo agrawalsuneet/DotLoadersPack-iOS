@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import DotsLoadersPack
 
 class ViewController: UIViewController {
 
